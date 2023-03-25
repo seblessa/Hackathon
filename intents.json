@@ -1,0 +1,538 @@
+
+{
+  "intents": [
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "help me",
+        "I feel overwhelmed",
+        "I am struggling with my mental health",
+        "I can't seem to shake off this sadness",
+        "I am feeling hopeless",
+        "I am feeling lonely",
+        "I am feeling sad",
+        "I am feeling stressed",
+        "I am feeling suicidal",
+        "I'm feeling really anxious and stressed out",
+        "I'm feeling really depressed",
+        "I'm feeling really sad",
+        "I'm feeling really lonely",
+        "I'm feeling really hopeless",
+        "I'm feeling really overwhelmed",
+        "I'm feeling really suicidal",
+        "I'm feeling depressed"
+      ],
+      "responses": [
+        "I'm here to listen and support you. Can you tell me more about what's been going on?",
+        "It sounds like you're going through a tough time. How can I help you feel better?",
+        "I'm sorry to hear that you're feeling down. Would you like to talk about what's been on your mind?",
+        "It's okay to not be okay. Let's talk about how you're feeling and what we can do to help you.",
+        "Mental health is just as important as physical health. How can I support you right now?",
+        "You don't have to go through this alone. I'm here to listen and support you in any way that I can.",
+        "Remember that it's okay to ask for help when you need it. Have you considered talking to a therapist or counselor?",
+        "Let's work together to come up with some coping strategies that can help you manage your emotions and feel better."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "How can I cope with my anxiety?",
+        "Give me tips",
+        "Can you help me relax?",
+        "I need to calm down",
+        "What can I do to feel better?",
+        "What are some ways to manage depression?",
+        "What can I do to relieve stress?",
+        "How can I cope with my panic attacks?",
+        "Are there any self-care practices that can help me manage my mental health?",
+        "What are some coping strategies for social anxiety?",
+        "I'm feeling stressed",
+        "I'm feeling anxious",
+        "I'm feeling anxious and stressed out"
+      ],
+      "responses": ["Some coping strategies for anxiety include deep breathing exercises, mindfulness practices, and physical activity.",
+      "One technique that might help is deep breathing exercises. You can try taking slow, deep breaths and counting to four as you inhale, then counting to four again as you exhale. This can help calm your mind and body. Another strategy is to engage in physical exercise or a hobby that you enjoy.",
+      "Some effective ways to relieve stress include practicing relaxation techniques such as meditation or yoga, engaging in physical activity, and connecting with loved ones.",
+      "There are many ways to manage depression, such as therapy, medication, and self-care practices.",
+      "Progressive muscle relaxation: This involves tensing and relaxing different muscle groups throughout the body to release tension and promote relaxation.",
+      "Mindfulness meditation: This involves focusing on the present moment and accepting your thoughts and feelings without judgment. You can try this by focusing on your breathing and noticing your thoughts and feelings as they come and go.",
+      "Cognitive-behavioral therapy: This involves identifying and changing negative thought patterns and behaviors that contribute to anxiety and stress. We can work on this together if you'd like.",
+      "Journaling: This involves writing down your thoughts and feelings to help you process them. You can try this by writing down your thoughts and feelings in a journal or on a piece of paper. You can also try writing down your thoughts and feelings in a journal or on a piece of paper.",
+      "Spending time in nature: Being in nature can promote relaxation and reduce stress.",
+      "Listening to music can help you relax and reduce stress.",
+      "Engaging in physical activity: Physical activity can help you relax and reduce stress.","Some coping strategies for anxiety include deep breathing exercises, mindfulness practices, and physical activity.",
+      "Coping with panic attacks can be challenging, but there are techniques such as deep breathing, visualization, and progressive muscle relaxation that can help. Have you tried any of these?",
+      "Self-care practices such as getting enough sleep, eating a balanced diet, and engaging in activities that bring you joy and relaxation can be helpful in managing your mental health. Would you like to discuss more specific self-care strategies?",
+      "Coping with social anxiety can be difficult, but there are strategies such as gradual exposure, cognitive behavioral therapy, and practicing relaxation techniques that can help. Can we explore which of these strategies might be most effective for you?",
+      "It's important to remember that coping strategies are different for everyone, and what works for one person may not work for another. Let's work together to find the coping strategies that are best for you and your unique situation.",
+      "Seeking support from friends, family, or a therapist can also be an important part of coping with mental health challenges. Would you like to explore different options for getting support?",
+      "Sure, some relaxation techniques include deep breathing exercises, meditation, and yoga.",
+      "Some ways to relax include listening to calming music, reading a book, or taking a warm bath. What can I do to help you relax right now?"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Can you recommend a therapist?",
+        "Where can I find a support group?",
+        "What are some hotlines I can call?",
+        "Where can I find a mental health clinic in my area?",
+        "Can you recommend any online therapy resources?",
+        "What are some resources for dealing with addiction?",
+        "Are there any support groups specifically for veterans?",
+        "What are some resources for coping with grief?"
+      ],
+      "responses": [
+        "There are many resources available for mental health support. I can provide you with a list of local therapists, support groups, and hotlines.",
+        "Please know that you are not alone. There are many resources available for help, I can give you some information about them if you want.",
+        "There are many mental health clinics in your area that may be able to provide support. I can help you find some options if you would like.",
+        "Online therapy resources can be a convenient option for accessing mental health support from the comfort of your own home.",
+        "Coping with addiction can be challenging, but there are many resources available such as 12-step programs, support groups, and counseling services.",
+        "There are many resources available specifically for veterans, such as VA clinics, support groups, and hotlines.",
+        "Coping with grief can be difficult, but there are resources available such as grief counseling, support groups, and online forums.",
+        "It's important to know that seeking help is a sign of strength, and there are many resources available to support you. I can provide you with a list of resources tailored to your specific needs if you would like."
+      ]
+    },
+    {
+      "tag": "relaxation",
+      "patterns": [
+        "Can you help me relax?",
+        "I need to calm down",
+        "I'm feeling stressed",
+        "What are some ways to reduce stress and anxiety?",
+        "Can you recommend some mindfulness exercises for me to try?",
+        "I'm having trouble sleeping. What can I do to relax and fall asleep?",
+        "What are some relaxation techniques I can use at work?",
+        "Can you help me create a relaxation routine?"
+      ],
+      "responses": [
+        "Sure, some relaxation techniques include deep breathing exercises, meditation, and yoga.",
+        "Of course, some ways to relax include listening to calming music, reading a book, or taking a warm bath.",
+        "Some effective ways to reduce stress and anxiety include deep breathing exercises, progressive muscle relaxation, and visualization techniques.",
+        "Mindfulness exercises can be a great way to reduce stress and anxiety.",
+        "It can be difficult to fall asleep when you're feeling stressed. Some relaxation techniques that can help you fall asleep include deep breathing exercises, meditation, and progressive muscle relaxation.",
+        "Mindfulness exercises such as body scanning, mindful breathing, and loving-kindness meditation can be helpful for reducing stress and promoting relaxation.",
+        "Creating a bedtime routine that promotes relaxation can be helpful for falling asleep. Some examples include taking a warm bath, reading a book, or practicing relaxation techniques.",
+        "Taking regular breaks throughout the workday to practice relaxation techniques such as deep breathing, stretching, or taking a short walk can be helpful for reducing stress and increasing productivity.",
+        "Creating a consistent relaxation routine that includes activities such as meditation, yoga, or listening to calming music can be helpful for reducing stress and promoting overall well-being.",
+        "Remember that relaxation looks different for everyone, and it's important to find what works best for you. Let's work together to find relaxation techniques and routines that work for your unique needs and lifestyle."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "I am in danger",
+        "I am thinking of harming myself",
+        "I am having suicidal thoughts",
+        "I need immediate help.",
+        "I'm feeling unsafe and need assistance.",
+        "I'm having a panic attack",
+        "I'm having a mental health emergency",
+        "I'm having a mental health crisis",
+        "What should I do if I'm having a mental health crisis?",
+        "I'm worried about someone who may harm themselves. What should I do?"
+      ],
+      "responses": [
+        "If you are in danger or thinking of harming yourself, please call emergency services immediately. If you are in the US, you can call 911. If you are in another country, please call the emergency services number for your location.",
+        "Please know that help is available. If you are thinking about harming yourself or are in crisis, please call emergency services immediately or reach out to the National Suicide Prevention Lifeline in the US at 1-800-273-TALK (8255).",
+        "If you are experiencing an emergency or feel unsafe, please call emergency services immediately. If you are in the US, you can call 911. If you are in another country, please call the emergency services number for your location.",
+        "If you are having a mental health crisis, please seek help immediately. You can call the National Suicide Prevention Lifeline in the US at 1-800-273-TALK (8255), or visit your local emergency room or urgent care center.",
+        "It's important to prioritize your safety and well-being. If you're feeling unsafe, please call emergency services or reach out to a crisis hotline for immediate assistance.",
+        "If you're concerned about someone who may harm themselves, please encourage them to seek professional help or contact emergency services. You can also offer to support them in seeking help, or contact a crisis hotline for guidance on how to best support your loved one.",
+        "Remember that you are not alone, and there is help available for you. Don't hesitate to reach out for assistance if you are in crisis or feeling unsafe."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning/afternoon/evening!",
+        "Nice to meet you!",
+        "What's up?",
+        "Hi there!",
+        "Howdy!",
+        "Hey, nice to meet you!",
+        "Greetings!"
+      ],
+      "responses": [
+        "Hey","Hello!",
+        "Hi there, how can I help?",
+        "Hi there, what can I do for you?",
+        "Hello, how are you doing today?",
+        "Hi there, nice to meet you!",
+        "Hello, nice to meet you!",
+        "Hi there, how are you?",
+        "Hi there! How can I assist you today?",
+        "Hi there, how can I help you?",
+        "Hello! How are you doing?",
+        "Hey! I'm here to help you. What can I do for you?",
+        "Greetings! How can I be of service?",
+        "Nice to meet you too! How can I help you today?",
+        "Hi! Is there anything specific you would like to discuss or ask about?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Take care!","Farewell!","I'll talk to you soon.","Until next time!","See you again!","Have a good one!"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Take care and have a great day!",
+        "Have a wonderful day!",
+        "Goodbye, it was nice talking to you!",
+        "I look forward to speaking with you again soon!",
+        "Until next time, have a great day!",
+        "See you soon! Don't hesitate to contact me again if you need assistance.",
+        "Have a good one!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","I appreciate your help!","Thank you so much!","That was really helpful.","You're the best!","Thanks for everything!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","It was my pleasure to assist you.","You're welcome! Don't hesitate to reach out if you have any more questions","I'm glad I could help!","No problem at all. Have a great day!","You're very welcome!","Anytime! It's what I'm here for."]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Can you make me laugh?",
+        "I'm bored. Tell me a joke.",
+        "I need a good laugh",
+        "I'm feeling down. Tell me a joke.",
+        "Tell me a funny story"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "Sure, why did the tomato turn red? Because it saw the salad dressing!",
+        "What do you call fake spaghetti? An impasta!",
+        "What did the buffalo say when his son left for college? Bison.",
+        "How do you make a tissue dance? Put a little boogey in it!"
+      ]
+    },
+    {"tag": "definition",
+         "patterns": ["What does it mean to have a mental illness?", "What is mental health illness","Describe mental health illness","Can you explain what a mental disorder is?",
+         "What are the different types of mental illnesses?",
+         "What are some common symptoms of mental illnesses?"],
+         "responses": ["Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning.",
+         "A mental disorder is a medical condition that affects a person's thinking, feeling, behavior, or mood. There are many types of mental illnesses, such as anxiety disorders, mood disorders, psychotic disorders, and personality disorders. Some common symptoms of mental illnesses include changes in mood, difficulty concentrating, trouble sleeping, and changes in appetite."],
+         "context": [""]
+        }
+        ,
+
+	{"tag": "affects_whom",     
+	 "patterns": ["Who does mental illness affect?", "Who is affected by mentall illness","Does mental illness only affect adults?", "Can children be affected by mental illness?"],        
+	 "responses": ["Mental illness can affect anyone, regardless of age. Children and teenagers can also experience mental health conditions.", "Mental illness can affect people of all ages, including children and teenagers.","It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness."],       
+ 	 "context": [""]    
+	},
+    {"tag": "what_causes",         
+    "patterns": ["What causes mental illness?","What leads to mental illness?","how does one get mentally ill?",
+                "What are the common causes of mental illness?","Can stress cause mental illness?","Are there genetic factors that contribute to mental illness?"],         
+    "responses": ["Symptoms of mental health disorders vary depending on the type and severity of the condition.",
+    "The causes of mental illness are complex and multifactorial, and can include a combination of genetic, environmental, and lifestyle factors.",
+    "Some mental health disorders, such as depression and anxiety, can be triggered by chronic stress or traumatic life events.",
+    "While there is no one 'mental illness gene,' research has shown that there are genetic factors that can increase a person's risk of developing certain mental health disorders."],       
+    "context": [""]        
+    },
+    {"tag": "recover",        
+    "patterns": ["Can people with mental illness recover?","Is it possible to recover from mental illness"],        
+    "responses": ["When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."],       
+    "context": [""]        
+    },
+    {"tag": "effective_recover",
+    "patterns": ["What are some effective treatments for mental illness?", "How can I help myself recover from mental illness?", "What can I do to promote my mental health recovery?"],
+    "responses": ["Effective treatments for mental illnesses include therapy, medication, self-care, and support from family and friends. It is important to work with a mental health professional to determine the best treatment plan for your individual needs. To promote your own mental health recovery, try to focus on self-care activities such as exercise, getting enough sleep, eating a balanced diet, and practicing relaxation techniques such as meditation or deep breathing. It is also important to maintain social connections and reach out to trusted friends or family members for support."],
+    "context": [""]
+    },
+
+    {"tag": "recover_without_medication",
+    "patterns": ["Is recovery from mental illness possible without medication?", "Can I recover from mental illness without taking medication?", "What are some alternative treatments for mental illness?"],
+    "responses": ["While medication can be an effective treatment for mental illnesses, it is not always necessary. Alternative treatments such as therapy, exercise, relaxation techniques, and mindfulness practices can also be helpful for promoting mental health recovery. It is important to work with a mental health professional to determine the best treatment plan for your individual needs."],
+    "context": [""]
+    },
+
+    {"tag": "recover_time",
+    "patterns": ["How long does it take to recover from a mental illness?", "Is recovery from mental illness a long process?"],
+    "responses": ["The length of time it takes to recover from a mental illness can vary depending on the type and severity of the condition, as well as the individual's response to treatment. Recovery is often a gradual process that requires patience and persistence. It is important to work with a mental health professional to develop a personalized treatment plan and to regularly check in on your progress."],
+    "context": [""]
+    },
+    {"tag": "find_help",
+    "patterns": ["How to find mental health professional for myself","How to find mental health professional?"],
+    "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."],
+    "context": [""]
+    },
+    {"tag": "find_help_resources",
+    "patterns": [
+    "What resources are available for finding a mental health professional?",
+    "Where can I find mental health resources?",
+    "How can I locate a therapist or counselor?"
+    ],
+    "responses": [
+    "There are several resources available for finding a mental health professional. You can start by contacting your insurance provider for a list of in-network providers. You can also search online for mental health directories, such as Psychology Today, or use a teletherapy platform like BetterHelp or Talkspace. Another option is to ask for recommendations from your primary care physician, friends, or family members."
+    ],
+    "context": [""]
+    },
+    {
+    "tag": "WhatIsMentalHealth",
+    "patterns": [
+            "What is mental health?",
+            "Define mental health",
+            "What does mental health mean?",
+            "How is mental health defined?",
+            "Can you explain what mental health is?"
+    ],
+    "responses": [
+            "Mental health refers to a person's emotional, psychological, and social well-being. It affects how we think, feel, and act in our daily lives."
+    ]
+    },
+    {"tag": "MentalHealthImportance",
+    "patterns": [
+    "Why is mental health important?",
+    "How important is mental health?",
+    "What role does mental health play in our lives?",
+    "What are the benefits of good mental health?",
+    "How can mental health impact physical health?"
+    ],
+    "responses": [
+    "Mental health is incredibly important as it affects all aspects of our lives, including our relationships, work performance, and overall well-being. Good mental health can lead to increased happiness, productivity, and success. Additionally, research shows that poor mental health can have negative effects on physical health, such as increased risk of chronic diseases and a weaker immune system."
+    ]
+    }, 
+    {
+    "tag": "ManagingStressAndAnxiety",
+    "patterns": [
+            "What are some strategies to manage stress and anxiety while coding?",
+            "How can I cope with work-related stress and anxiety?",
+            "How can I manage my anxiety and stress levels?",
+            "Are there any techniques or tools that can help me cope with anxiety and stress?",
+            "What are some effective strategies for reducing anxiety and stress?",
+            "I feel overwhelmed",
+            "I am feeling anxious",
+            "I am feeling depressed",
+            "I am struggling with my mental health",
+            "What are some self-care practices to manage stress and anxiety?",
+            "How can I prioritize self-care to reduce stress and anxiety?",
+            "What are some healthy coping mechanisms for dealing with stress and anxiety?",
+            "How can I manage my workload to reduce stress and anxiety?",
+            "How can I balance work and self-care to reduce stress and anxiety?",
+            "What are some tips for managing stress and anxiety during exams?",
+            "How can I manage my anxiety and stress levels during public speaking?"
+    ],
+    "responses": [
+            "Some strategies to manage stress and anxiety while coding include setting realistic goals, taking breaks, and practicing relaxation techniques. It's also important to communicate with your team and seek support if needed."
+            ,"There are many different techniques that can help manage anxiety and stress, such as deep breathing, progressive muscle relaxation, and mindfulness meditation. You can also try cognitive-behavioral therapy, which helps you change negative thought patterns and behaviors that contribute to anxiety and stress.",
+            "Some tools that can help you cope with anxiety and stress include journaling, using a stress ball or fidget toy, and listening to calming music. You can also try using apps that provide guided meditations or relaxation exercises.",
+            "Effective strategies for reducing anxiety and stress include regular exercise, getting enough sleep, avoiding caffeine and alcohol, and seeking social support. It's also important to identify and manage sources of stress in your life, such as work or relationship problems."
+          ,"I'm here to listen and support you. Can you tell me more about what's been going on?",
+            "It sounds like you're going through a tough time. How can I help you feel better?",
+            "Self-care practices to manage stress and anxiety include getting enough sleep, eating a balanced diet, practicing regular physical exercise, and engaging in activities that you enjoy. It's also important to set boundaries and prioritize self-care, even when you have a lot on your plate."
+          ,"Healthy coping mechanisms for dealing with stress and anxiety include deep breathing, taking a walk, writing in a journal, and talking to a trusted friend or therapist. It's important to find what works best for you and make it a regular part of your routine."
+          ,"To manage your workload and reduce stress and anxiety, try breaking down tasks into smaller, manageable chunks and setting realistic deadlines. It can also be helpful to prioritize tasks based on their urgency and importance."
+          ,"To balance work and self-care, try scheduling in time for self-care activities such as exercise, hobbies, or spending time with loved ones. Remember that taking breaks can actually improve productivity and reduce stress in the long run."
+          ,"Tips for managing stress and anxiety during exams include creating a study schedule, taking regular breaks, practicing relaxation techniques, and getting enough sleep. Remember to also give yourself grace and acknowledge that your self-worth is not defined by your exam performance."
+          ,"To manage anxiety and stress during public speaking, try practicing your speech ahead of time, focusing on deep breathing and relaxation techniques, and imagining a positive outcome. Remember that it's normal to feel nervous, and that with practice, public speaking can become less intimidating."
+   ]  },
+   {
+   "tag": "SeekingProfessionalHelp",
+   "patterns": [
+           "When should I seek professional help for my mental health?",
+           "How do I know if I need to see a therapist?"
+   ],
+   "responses": [
+           "It's important to seek professional help for your mental health if you're experiencing persistent or severe symptoms, such as depression, anxiety, or trauma. You can talk to your healthcare provider or seek a referral to a mental health professional for assessment and treatment.",
+           "There are many resources available for mental health support. I can provide you with a list of local therapists, support groups, and hotlines. Would you like me to do that?",
+           "Please know that you are not alone. There are many resources available for help, I can give you some information about them if you want."
+   ]
+   },
+   {
+   "tag": "hotlines",
+   "patterns": [
+    "give me some information about hotlines",
+    "provide me with a hotline",
+    "provide me with someone i can call",
+    "What are some hotlines I can call?",
+    "What are some helplines I can contact for mental health support?",
+    "Do you know of any emergency hotlines for suicide prevention?",
+    "Who can I call if I need immediate mental health assistance?",
+    "Are there any free hotlines for mental health support?",
+    "What hotline should I call if I'm feeling overwhelmed or distressed?",
+    "I need someone to talk to right now. What hotline can I call?"
+   ],
+   "responses": [
+           "963 524 660 This is the hotline you can call in your country. You are not alone in this, if you need help, please call them."
+   ]
+   },
+   {
+    "tag": "therapy_whatToLookFor",
+    "patterns": [
+        "How can therapy help me?",
+        "What can I expect from therapy?",
+        "What are the benefits of seeing a therapist?",
+        "How long does therapy last?",
+        "What should I look for in a therapist?"
+    ],
+    "responses": [
+        "Therapy can help you explore and process your thoughts and emotions, develop coping strategies, and work towards your goals. It can provide you with a safe and supportive space to work through challenges and improve your mental health.",
+        "In therapy, you can expect to talk about your thoughts and feelings, set goals, and work on strategies to improve your mental health. The length and frequency of sessions can vary depending on your needs and the therapist's approach.",
+        "Some benefits of seeing a therapist include improved self-awareness, increased coping skills, improved relationships, and decreased symptoms of mental health concerns.",
+        "When looking for a therapist, it's important to consider factors such as their experience and training, their approach to therapy, and their availability. It can also be helpful to find a therapist who specializes in your specific mental health concern.",
+          "Some things to consider when looking for a therapist include their experience and training, their approach to therapy, and their availability. It can also be helpful to find a therapist who specializes in your specific mental health concern."
+    ]
+    }, 
+    {
+      "tag": "therapy_cost",
+      "patterns": [
+        "Can therapy be expensive?",
+        "What should I do if I can't afford therapy?"
+      ],
+      "responses": [
+        "Therapy can be expensive, but there are options available to make it more affordable. Some therapists offer sliding-scale fees based on income, and there may be community mental health clinics or non-profit organizations that offer low-cost or free therapy services.",
+        "If you can't afford therapy, you can also consider reaching out to community mental health clinics, non-profit organizations, or university counseling centers that may offer low-cost or free therapy services. Online therapy options may also be more affordable than in-person therapy."
+      ]
+    }, 
+    {
+      "tag": "therapy_online",
+      "patterns": [
+        "Can therapy be done online?"
+      ],
+      "responses": [
+        "Yes, therapy can be done online through video or phone sessions. Online therapy can be a convenient and accessible option for those who have difficulty accessing in-person therapy, such as those who live in rural areas or have limited mobility."
+      ]
+    },
+    {
+      "tag": "right_therapist",
+      "patterns": [
+        "What should I do if I feel uncomfortable with my therapist?",
+        "How can I find a therapist who specializes in my specific mental health concern?",
+        "How can I find a therapist who is a good fit for me?",
+        "How can I find a therapist who is right for me?"
+      ],
+      "responses": [
+        "If you feel uncomfortable with your therapist, it's important to communicate your concerns and discuss ways to address them. If you're unable to resolve the issues, it may be necessary to find a new therapist who is a better fit for you.",
+        "You can search for therapists who specialize in your specific mental health concern on websites such as Psychology Today or GoodTherapy. It may also be helpful to ask for recommendations from your healthcare provider or from friends or family members who have had positive experiences with therapy.",
+        "You can find a therapist who is a good fit for you by considering factors such as their experience and training, their approach to therapy, and their availability. It can also be helpful to find a therapist who specializes in your specific mental health concern."
+      ]
+    },
+    {
+    "tag": "SelfCareTips",
+    "patterns": [
+            "What are some self-care tips for managing my mental health?",
+            "How can I practice self-care to improve my mental health?",
+            "What are some other self-care activities I can do to manage my mental health?",
+            "Can you suggest some self-care practices to improve my well-being?",
+            "How often should I practice self-care for my mental health?",
+            "What are some self-care practices I can do at home?",
+            "How can I take care of myself mentally and emotionally?",
+            "What are some simple self-care tips for everyday life?",
+            "Can you suggest some self-care activities for when I'm feeling stressed?",
+            "How can I incorporate self-care into my busy schedule?"
+    ],
+    "responses": [
+            "Some self-care tips for managing your mental health include getting enough sleep, eating a balanced diet, staying active, engaging in hobbies or activities that bring you joy, and seeking social support. It's important to prioritize self-care and make it a part of your daily routine.",
+            "In addition to the usual self-care practices like exercise, meditation, and socialization, you could also try incorporating creative activities like art, music, or writing into your routine. These activities can be great for reducing stress and improving mental clarity.",
+            "Other self-care activities you could try include taking a relaxing bath, going for a walk in nature, or trying aromatherapy. The key is to find activities that you enjoy and that help you feel calm and centered.",
+            "There's no one-size-fits-all answer to this question, as everyone's self-care needs are different. However, it's generally recommended to practice self-care on a regular basis, ideally daily. This can help you build resilience and maintain a positive outlook on life.",
+            "Some self-care practices you can do at home include practicing mindfulness or meditation, taking a relaxing bath, trying a new hobby or activity, and setting boundaries to protect your time and energy.",
+            "To take care of yourself mentally and emotionally, you can try journaling, talking to a friend or therapist, getting enough rest and exercise, and taking breaks when you need them.",
+            "Some simple self-care tips for everyday life include taking deep breaths when you feel stressed, making time for activities that bring you joy, setting realistic goals, and practicing gratitude.",
+            "When you're feeling stressed, self-care activities like taking a walk outside, practicing yoga or stretching, listening to music, or engaging in a creative activity like drawing or painting can be helpful.",
+            "You can incorporate self-care into your busy schedule by making it a priority and scheduling time for self-care activities, even if it's just a few minutes each day. It's important to remember that self-care isn't selfish, it's necessary for maintaining your well-being."
+    ]
+    },
+    {
+    "tag": "emergency",
+    "patterns": [
+            "I am in danger",
+            "I am thinking of harming myself",
+            "I am having suicidal thoughts",
+            "I need help right now",
+            "I'm feeling overwhelmed and don't know what to do",
+            "I think I'm having a panic attack",
+            "I need to talk to someone right away"
+    ],
+    "responses": [
+            "If you are in danger or thinking of harming yourself, please call emergency services immediately. If you are in Portugal, you can call 112 or 963 524 660, in the US you can call 911. If you are in another country, please call the emergency services number for your location.",
+            "Please know that help is available. If you are thinking about harming yourself or are in crisis, please call emergency services immediately, if you are in Portugal, please call 112 or 963 524 660, if you're in the US, please reach out to the National Suicide Prevention Lifeline in the US at 1-800-273-TALK (8255).",
+            "If you're in immediate danger, please call emergency services right away. If you're in Portugal call 112, if you're the US, call 911. If you're in another country, please call the emergency services number for your location.",
+           "It's okay to ask for help when you need it. If you're feeling overwhelmed or having a panic attack, there are resources available to help you. You can call a crisis hotline (963 524 660- Portugal, 1-800-273-TALK (8255)-US),  or speak to a mental health professional for support.",
+           "You don't have to go through this alone. If you need someone to talk to right away, please call a crisis hotline (963 524 660- Portugal, 1-800-273-TALK (8255)-US) or seek support from a mental health professional.",
+           "Remember, there is always help available. If you're in crisis, please reach out for support immediately. You can call a crisis hotline (963 524 660- Portugal, 1-800-273-TALK (8255)-US), speak to a mental health professional, or go to the nearest emergency room."
+    ]
+    },
+    {
+    "tag": "Medication",
+    "patterns": [
+            "What are the different types of medications for mental health?",
+            "How do I know if I need medication for my mental health?"
+    ],
+    "responses": [
+            "There are different types of medications for mental health, such as antidepressants, antipsychotics, and mood stabilizers. Medication can be helpful for managing symptoms, but it's important to consult with a healthcare provider to determine if it's right for you. They can help you weigh the benefits and risks of medication and provide guidance on dosage and duration."
+    ]
+    },
+    {
+    "tag": "Medication_side_effects",
+    "patterns": [
+      "What are the common side effects of mental health medications?",
+      "What are the side effects of mental health medications?"
+    ],
+    "responses": [
+      "Common side effects of mental health medications can include drowsiness, dizziness, weight gain, and sexual dysfunction. However, not everyone experiences these side effects, and they can often be managed or minimized with the help of a healthcare provider.",
+      "Some common side effects of mental health medications include drowsiness, dizziness, nausea, and sexual dysfunction. However, not everyone experiences these side effects, and they can often be managed or minimized with the help of a healthcare provider.",
+      "The most common side effects of mental health medications include drowsiness, dizziness, nausea, and sexual dysfunction. However, not everyone experiences these side effects, and they can often be managed or minimized with the help of a healthcare provider."
+    ]
+    },
+    {
+    "tag": "Medication_addiction",
+    "patterns": [
+      "Can mental health medications be addictive?",
+      "Can I get addicted to mental health medications?",
+      "Can I become dependent on mental health medications?",
+      "Can I become addicted to mental health medications?"
+    ],
+    "responses": [
+      "Some mental health medications can be addictive, but this is not always the case. Your healthcare provider can provide information on the potential for addiction with specific medications.",
+      "It's possible to become addicted to some mental health medications, but this is not always the case. Your healthcare provider can provide information on the potential for addiction with specific medications."
+    ]
+    },
+    {
+    "tag": "Medication_howLongTillEffect",
+    "patterns": [
+      "How long does it take for mental health medication to start working?",
+      "How long does it take for mental health medication to take effect?",
+      "How long does it take for mental health medication to work?",
+      "How long does it take for mental health medication to kick in?"
+    ],
+    "responses": [
+      "The time it takes for mental health medication to start working can vary depending on the individual and the medication. In some cases, it can take several weeks or even months for the full effects to be felt. Your healthcare provider can provide more specific information on what to expect with your medication.",
+      "The time it takes for mental health medication to take effect can vary depending on the individual and the medication. In some cases, it can take several weeks or even months for the full effects to be felt. Your healthcare provider can provide more specific information on what to expect with your medication.",
+      "The time it takes for mental health medication to work can vary depending on the individual and the medication. In some cases, it can take several weeks or even months for the full effects to be felt. Your healthcare provider can provide more specific information on what to expect with your medication.",
+      "The time it takes for mental health medication to kick in can vary depending on the individual and the medication. In some cases, it can take several weeks or even months for the full effects to be felt. Your healthcare provider can provide more specific information on what to expect with your medication."
+    ]
+    },
+    {
+    "tag": "Medication_missingDose",
+    "patterns": [
+      "What should I do if I miss a dose of my mental health medication?"
+    ],
+    "responses": [
+      "If you miss a dose of your mental health medication, it's important to follow the instructions provided by your healthcare provider. In some cases, it may be okay to skip the missed dose and resume your regular dosing schedule. However, in other cases, it may be necessary to take the missed dose as soon as possible and adjust your schedule accordingly. It's important to consult with your healthcare provider to determine the best course of action."
+    ]
+    }
+    ,
+    {
+    "tag": "Medication_soloTreatment",
+    "patterns": [
+      "Can mental health medication be used as the sole treatment for mental illness?"
+    ],
+    "responses": [
+      "Mental health medication can be helpful for managing symptoms, but it is often most effective when used in combination with therapy and other forms of treatment. Your healthcare provider can help you determine the best course of treatment for your individual needs."
+    ]
+    }
+  ]
+}
