@@ -15,7 +15,7 @@
 
 ## Description
 
-Hackathon is a challenged proposed by [Critical Techworks](https://www.criticaltechworks.com/) in the 2022/2023 Update organize by [NUCC](https://nucc.dcc.fc.up.pt/) (Núcleo de Ciência de Computação da Faculdade de Ciências da Universidade do Porto).
+Hackathon is a challenged proposed by [Critical Techworks](https://www.criticaltechworks.com/) in the 2022/2023 Update organized by [NUCC](https://nucc.dcc.fc.up.pt/) (Núcleo de Ciência de Computação da Faculdade de Ciências da Universidade do Porto).
 
 The challenge was to create a Chatbot to help with Mental Health.
 
