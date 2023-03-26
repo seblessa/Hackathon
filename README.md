@@ -10,7 +10,7 @@
 
 [Rafael Conceição](https://github.com/rafaparkoureiro/) 
 
-[Ricardo Ribeiro](https://github.com/Cib1/)
+[Ricardo Ribeiro](https://github.com/Cibs1/)
 
 
 ## Description
